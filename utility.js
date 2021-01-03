@@ -6,6 +6,7 @@ xmlhttp.send();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myArr = JSON.parse(this.responseText);
+        console.log(myArr);
         document.getElementsByClassName("test")[0].innerText = myArr.slip.advice;
     }
 };
