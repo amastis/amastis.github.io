@@ -1,5 +1,4 @@
 const url = "https://breaking-bad-quotes.herokuapp.com/v1/quotes"; //"https://www.reddit.com/r/LifeProTips/new.json";
-
 let headers = new Headers({
 	"Accept"       : "application/json",
 	"User-Agent"   : navigator.userAgent
