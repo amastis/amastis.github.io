@@ -1,8 +1,6 @@
 const url = "https://www.reddit.com/r/LifeProTips/new.json";
 
 let headers = new Headers({
-    "Accept"       : "application/json",
-    "Content-Type" : "application/json",
     "User-Agent"   : navigator.userAgent
 });
 
