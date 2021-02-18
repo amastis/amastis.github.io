@@ -17,6 +17,7 @@ fetch(url, {
 
 
 function getTest() {
+	document.getElementsByTagName("h1").style.color = "red";
 	console.log("this is a test");
 	alert("this is a test 2");
 }
