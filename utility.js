@@ -10,12 +10,3 @@ fetch(url, {
     headers : headers 
 }).then(response => response.json())
 	.then(data => console.log(data.data.children[0].data.title + "\n" + data.data.children[0].data.url)); //[0].quote));
-
-
-
-function getTest() {
-	document.getElementsByTagName("h1")[0].style.color = "red";
-	console.log("this is a test");
-	alert("this is a test 2");
-}
-document.getElementsByClassName("test")[0].addEventListener('click', getTest);
