@@ -3,7 +3,7 @@ const url = "https://www.reddit.com/r/LifeProTips/new.json";
 let headers = new Headers({
     "Accept"       : "application/json",
     "Content-Type" : "application/json",
-    "User-Agent"   : "MY-UA-STRING"
+    "User-Agent"   : navigator.userAgent
 });
 
 //testing how to fetch json data
