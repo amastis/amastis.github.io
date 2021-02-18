@@ -2,7 +2,6 @@ const url = "https://breaking-bad-quotes.herokuapp.com/v1/quotes"; //"https://ww
 
 let headers = new Headers({
 	"Accept"       : "application/json",
-	"Content-Type" : "application/json",
 	"User-Agent"   : navigator.userAgent
 });
 
