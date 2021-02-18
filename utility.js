@@ -1,7 +1,9 @@
-const url = "https://www.reddit.com/r/LifeProTips/new.json";
+const url = "https://breaking-bad-quotes.herokuapp.com/v1/quotes" //"https://www.reddit.com/r/LifeProTips/new.json";
 
 let headers = new Headers({
-    "User-Agent"   : navigator.userAgent
+	"Accept"       : "application/json",
+	"Content-Type" : "application/json",
+	"User-Agent"   : navigator.userAgent
 });
 
 //testing how to fetch json data
