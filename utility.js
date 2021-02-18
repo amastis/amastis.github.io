@@ -11,7 +11,7 @@ fetch(url, {
     method  : 'GET', 
     headers : headers 
 }).then(response => response.json())
-	.then(data => alert(data));//.data.children[0].data.title + "\n" + data.data.children[0].data.url));
+	.then(data => alert(data[0].quote));//.data.children[0].data.title + "\n" + data.data.children[0].data.url));
 
 
 
