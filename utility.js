@@ -13,3 +13,11 @@ fetch(url, {
 }).then(response => response.json())
 	.then(data => alert(data))//.data.children[0].data.title + "\n" + data.data.children[0].data.url));
 	.catch(error => console.error(error));
+
+
+
+function getTest() {
+	console.log("this is a test");
+	alert("this is a test 2");
+}
+document.getElementsByClassName("test")[0].addEventListener('click', getTest);
