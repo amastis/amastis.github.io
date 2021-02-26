@@ -3,5 +3,5 @@
 https://amastis.github.io
 
 
-Link Tree:
-https://amastis.github.io/Assets/linktree.html
+Linked Page:
+https://amastis.github.io/linked/index.html
