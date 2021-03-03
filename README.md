@@ -4,4 +4,4 @@ https://amastis.github.io
 
 
 Linked Page:
-https://amastis.github.io/linked/index.html
+https://amastis.github.io/linked/
